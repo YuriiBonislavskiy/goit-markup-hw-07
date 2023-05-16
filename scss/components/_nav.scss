@@ -1,0 +1,24 @@
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  list-style-type: none;
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav__item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.172;
+  letter-spacing: 0.02em;
+}
+
+.nav__link {
+  display: block;
+  text-decoration: none;
+    -webkit-transition: color $anime-time $anime-function;
+  transition: color $anime-time $anime-function;
+}
+
+
