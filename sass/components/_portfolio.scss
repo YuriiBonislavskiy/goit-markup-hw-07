@@ -19,9 +19,9 @@
 
 .p-button {
   font-family: Roboto;
-  font-size: : $font-size-16;
-  font-family: $font-family;
-  font-weight: $font-weight-500;
+  font-size: $fontSize16;
+  font-family: $fontFamilyDefault;
+  font-weight: $fontWeight-500;
   line-height: 1.625;
   letter-spacing: 0.03em;
   text-align: center;
@@ -139,9 +139,9 @@
 }
 
 .projects__description {
-  font-size: : $font-size-18;
-  font-family: $font-family;
-  font-weight: $font-weight-400;
+  font-size: $fontSize18;
+  font-family: $fontFamilyDefault;
+  font-weight: $fontWeight-400;
   line-height: 1.556;
   text-align: left;
   color: $base-color2;
@@ -160,17 +160,17 @@
 }
 
 .projects__h3 {
-  font-family: $font-family;
-  font-weight: $font-weight-700;
-  font-size: : $font-size-18;
+  font-family: $fontFamilyDefault;
+  font-weight: $fontWeight-700;
+  font-size: $fontSize18;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 
 .projects__type {
-  font-family: $font-family;
-  font-weight: $font-weight-400;
-  font-size: : $font-size-16;
+  font-family: $fontFamilyDefault;
+  font-weight: $fontWeight-400;
+  font-size: $fontSize16;
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: $base-color;
