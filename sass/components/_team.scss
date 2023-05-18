@@ -8,6 +8,7 @@
 }
 
 .team__h2 {
+  font-family: $font-family;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.172;
@@ -17,6 +18,7 @@
 }
 
 .team__h3 {
+  font-family: $font-family;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.173;
@@ -61,6 +63,7 @@
 
 .team__position {
   font-size: 16px;
+  font-family: $font-family;
   font-weight: 400;
   line-height: 1.172;
   letter-spacing: 0.03em;

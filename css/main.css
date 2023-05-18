@@ -1,5 +1,64 @@
 @charset "UTF-8";
-.section {
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  list-style-type: none;
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav__item {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.172;
+  letter-spacing: 0.02em;
+}
+
+.nav__link {
+  display: block;
+  text-decoration: none;
+  -webkit-transition: color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts__list {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+
+.contacts__item {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.172;
+  letter-spacing: 0.02em;
+}
+
+.contacts__link {
+  text-decoration: none;
+  -webkit-transition: color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts__icon {
+  -webkit-transition: fill 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.page-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.section, .hero {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -31,7 +90,7 @@ header {
 }
 
 .nav--header {
-  padding-left: 93px;
+  margin-left: 93px;
 }
 
 .nav__list--header {
@@ -127,63 +186,6 @@ header {
   fill: #2196f3;
 }
 
-.nav__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  list-style-type: none;
-  display: flex;
-  padding: 0px;
-  margin: 0px;
-}
-
-.nav__item {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.172;
-  letter-spacing: 0.02em;
-}
-
-.nav__link {
-  display: block;
-  text-decoration: none;
-  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.page-logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.192;
-  letter-spacing: 0.03em;
-  color: #2196f3;
-  text-decoration: none;
-}
-
-.contacts__list {
-  padding: 0px;
-  margin: 0px;
-  list-style-type: none;
-}
-
-.contacts__item {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.172;
-  letter-spacing: 0.02em;
-}
-
-.contacts__link {
-  text-decoration: none;
-  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.contacts__icon {
-  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .hero {
   padding-bottom: 200px;
   padding-top: 200px;
@@ -204,6 +206,7 @@ header {
 }
 
 .hero__h1 {
+  font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.364;
@@ -216,6 +219,7 @@ header {
 
 .hero__button {
   font-size: 16px;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   line-height: 1.875;
   letter-spacing: 0.06em;
@@ -251,6 +255,7 @@ header {
 }
 
 .services__h3 {
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.172;
@@ -260,6 +265,7 @@ header {
 
 .services__text {
   font-size: 14px;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   line-height: 1.714;
   letter-spacing: 0.03em;
@@ -296,6 +302,7 @@ header {
 }
 
 .activity__h2 {
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.172;
@@ -332,6 +339,7 @@ header {
 
 .activity__text {
   font-size: 14px;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   line-height: 1.143;
   padding: 0px;
@@ -353,6 +361,7 @@ header {
 }
 
 .team__h2 {
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.172;
@@ -362,6 +371,7 @@ header {
 }
 
 .team__h3 {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.173;
@@ -405,6 +415,7 @@ header {
 
 .team__position {
   font-size: 16px;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   line-height: 1.172;
   letter-spacing: 0.03em;
@@ -438,6 +449,7 @@ header {
 }
 
 .clients__h2 {
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.172;
@@ -482,8 +494,8 @@ header {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   text-align: center;
-  -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: border-color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients__link:hover, .clients__link:focus {
   border-color: #2196f3;
@@ -493,8 +505,8 @@ header {
   width: 106px;
   height: 60px;
   fill: #afb1b8;
-  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: fill 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 2250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients__link:hover .clients__icon, .clients__link:focus .clients__icon {
   fill: #2196f3;
@@ -523,6 +535,7 @@ footer {
 
 .address > address {
   font-style: normal;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
@@ -540,6 +553,7 @@ footer {
 }
 
 .address__item {
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
@@ -557,8 +571,8 @@ footer {
   text-decoration: none;
   padding: 0px;
   margin: 0px;
-  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address__link:hover,
@@ -574,6 +588,7 @@ footer {
 .connect__h3,
 .subscription__h3 {
   font-size: 14px;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   line-height: 1.172;
   color: #ffffff;
@@ -641,12 +656,13 @@ footer {
   border: 1px solid;
   border-color: rgba(255, 255, 255, 0.3);
   border-radius: 4px;
-  -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: -webkit-box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: #ffffff;
   font-size: 16px;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   line-height: 1.25;
   letter-spacing: 0.03em;
@@ -664,10 +680,10 @@ footer {
   -ms-flex-align: center;
   align-items: center;
   padding: 10px 28px;
-  -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: -webkit-box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .subscription__buttom:hover, .subscription__buttom:focus {
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -713,15 +729,15 @@ footer {
   -ms-flex-pack: center;
   justify-content: center;
   padding: 0px;
-  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: background-color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social__icon {
   height: 20px;
   width: 20px;
-  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: fill 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 2250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop {
@@ -732,8 +748,8 @@ footer {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
-  -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: opacity 2250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 2250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 2250ms cubic-bezier(0.4, 0, 0.2, 1);
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -750,12 +766,11 @@ footer {
   top: calc(50% - 290.5px);
   left: calc(50% - 264px);
   /* transform: translate(-50%, -50%); */
-  height: 581px;
   width: 528px;
   opacity: 1;
   background-color: #ffffff;
-  -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), scale 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), scale 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: opacity 2250ms cubic-bezier(0.4, 0, 0.2, 1), scale 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 2250ms cubic-bezier(0.4, 0, 0.2, 1), scale 2250ms cubic-bezier(0.4, 0, 0.2, 1);
   scale: 1;
   padding: 40px 40px 40px 40px;
   text-align: center;
@@ -804,8 +819,8 @@ footer {
 .close-icon {
   width: 18px;
   height: 18px;
-  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: fill 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 2250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal__close-button:hover .close-icon, .modal__close-button:focus .close-icon {
   fill: #2196f3;
@@ -830,8 +845,8 @@ footer {
   flex-direction: column;
   text-align: left;
   margin-bottom: 10px;
-  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: fill 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 2250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal__item:first-child {
   margin-top: 12px;
@@ -852,6 +867,7 @@ footer {
 }
 
 .modal__field-name {
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.167;
@@ -863,10 +879,11 @@ footer {
   padding-left: 42px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: border-color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
   height: 40px;
   font-size: 14px;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   line-height: 1.167;
   letter-spacing: 0.01em;
@@ -901,8 +918,8 @@ footer {
   left: 12px;
   -webkit-transform: translateY(-12px);
   transform: translateY(-12px);
-  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: fill 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 2250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: #212121;
 }
 .modal__item:is(:hover) .modal__icon, .modal__field:is(:focus) + .modal__icon {
@@ -946,8 +963,8 @@ footer {
   background-color: #ffffff;
   -webkit-transform: translateY(3px);
   transform: translateY(3px);
-  -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: border 2250ms cubic-bezier(0.4, 0, 0.2, 1), fill 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 2250ms cubic-bezier(0.4, 0, 0.2, 1), fill 2250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal__checkbox:checked + .modal__checkbox-icon {
   background-color: #2196f3;
@@ -960,6 +977,7 @@ footer {
 
 .modal__checkbox-label {
   font-size: 14px;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   line-height: 1.714;
   letter-spacing: 0.03em;
@@ -975,8 +993,8 @@ footer {
   padding: 10px 52px;
   -webkit-box-shadow: none;
   box-shadow: none;
-  -webkit-transition: ox-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: ox-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: ox-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: ox-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal__button:hover,
@@ -1009,6 +1027,7 @@ footer {
 .p-button {
   font-family: Roboto;
   font-size: 16px;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   line-height: 1.625;
   letter-spacing: 0.03em;
@@ -1020,10 +1039,10 @@ footer {
   padding-bottom: 6px;
   padding-left: 22px;
   padding-right: 22px;
-  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: background-color 2250ms cubic-bezier(0.4, 0, 0.2, 1), color 2250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 2250ms cubic-bezier(0.4, 0, 0.2, 1), color 2250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 2250ms cubic-bezier(0.4, 0, 0.2, 1), color 2250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 2250ms cubic-bezier(0.4, 0, 0.2, 1), color 2250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .p-button:hover, .p-button:focus {
   background-color: #2196f3;
@@ -1064,10 +1083,10 @@ footer {
 .projects__link {
   text-decoration: none;
   display: block;
-  -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: -webkit-box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .projects__link:hover, .projects__link:focus {
   /* border: 1px solid #EEEEEE; */
@@ -1096,10 +1115,10 @@ footer {
   background-color: rgba(33, 150, 243, 0.9);
   -webkit-transform: translateY(295px);
   transform: translateY(295px);
-  -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: opacity 2250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 2250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 2250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 2250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 2250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 2250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .projects__link:hover .projects__overlay, .projects__link:focus .projects__overlay {
   -webkit-transform: translateY(0px);
@@ -1108,6 +1127,7 @@ footer {
 
 .projects__description {
   font-size: 18px;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   line-height: 1.556;
   text-align: left;
@@ -1127,6 +1147,7 @@ footer {
 }
 
 .projects__h3 {
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -1134,6 +1155,7 @@ footer {
 }
 
 .projects__type {
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.875;
@@ -1154,9 +1176,4 @@ html {
 *:after {
   -webkit-box-sizing: inherit;
   box-sizing: inherit;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-  color: #757575;
 }/*# sourceMappingURL=main.css.map */

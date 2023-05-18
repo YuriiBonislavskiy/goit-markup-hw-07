@@ -7,6 +7,7 @@
 }
 
 .activity__h2 {
+  font-family: $font-family;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.172;
@@ -43,6 +44,7 @@
 
 .activity__text {
   font-size: 14px;
+  font-family: $font-family;
   font-weight: 700;
   line-height: 1.143;
   padding: 0px;
