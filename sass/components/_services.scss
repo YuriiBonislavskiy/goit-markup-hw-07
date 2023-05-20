@@ -34,8 +34,10 @@
   font-weight: $fontWeight-700;
   font-size: $fontSize14;
   line-height: 1.172;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 30px;
   letter-spacing: 0.03em;
-  // margin-bottom: 10px;
   color: $menu-item-color;
 }
 
@@ -51,7 +53,6 @@
 
 .services__type {
   height: 120px;
-  margin-bottom: 30px;
   background-color: $background-light;
   display: -webkit-box;
   display: -ms-flexbox;

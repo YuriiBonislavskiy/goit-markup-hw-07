@@ -31,13 +31,13 @@ footer {
   font-style: normal;
   color: $base-color2;
   /* margin-left: 215px; */
-  margin-top: 28px;
+  margin-top: 20px;
 }
 
 .address__list {
-  margin-top: 12px;
+  margin-top: 9px;
   margin-bottom: 0px;
-  padding-left: 0px;
+  padding: 0px;
   list-style-type: none;
 }
 
@@ -47,12 +47,11 @@ footer {
   font-size: $fontSize14;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  margin-bottom: 12px;
+  margin-bottom: 9px;
   padding: 0px;
-}
-
-.address__item:last-child {
-  margin-bottom: 0px;
+  &:last-child {
+    margin-bottom: 0px;
+  }
 }
 
 .address__link {
@@ -75,35 +74,28 @@ footer {
 
 .connect__h3,
 .subscription__h3 {
-  font-size: $fontSize14;
   font-family: $fontFamilyDefault;
   font-weight: $fontWeight-700;
+  font-size: $fontSize14;
   line-height: 1.172;
   color: $base-color2;
-}
-
-.social__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 16px;
+  margin: 0px;
   margin-bottom: 0px;
-  list-style-type: none;
-  padding: 0px;
 }
 
 .social__item {
   margin-right: 10px;
   text-decoration: none;
   /* cursor: pointer; */
-}
-
-.social__item:last-child {
-  margin-right: 0px;
+  &:last-child {
+    margin-right: 0px;
+  }
 }
 
 .social__list--firm {
-  margin-top: 2px;
+  @extend .social__list;
+  margin-top: 20px;
+  margin-bottom: 0px;
 }
 
 .social__link--firm {

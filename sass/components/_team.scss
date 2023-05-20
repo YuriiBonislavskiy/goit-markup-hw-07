@@ -14,8 +14,7 @@
   font-size: $fontSize36;
   line-height: 1.172;
   letter-spacing: 0.03em;
-  margin-top: 0px;
-  margin-bottom: 50px;
+  margin: 0px;
   color: $header-color;
 }
 
@@ -77,7 +76,9 @@
   color: $base-color;
 }
 .social__list--team {
+  @extend .social__list;
   margin-top: 16px;
+  margin-bottom: 0px;
 }
 
 .social__link--team {
