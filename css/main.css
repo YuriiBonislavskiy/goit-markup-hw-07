@@ -25,7 +25,7 @@ html {
 }
 
 .modal__button, .subscription__buttom, .hero__button {
-  font-family: '"Roboto", sans-serif';
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
@@ -52,7 +52,7 @@ html {
 }
 
 .nav__link {
-  font-family: '"Roboto", sans-serif';
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.172;
@@ -64,7 +64,7 @@ html {
 }
 
 .page-logo, .page-logo__color--footer, .page-logo__color--header {
-  font-family: '"Raleway", sans-serif';
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
@@ -80,7 +80,7 @@ html {
 }
 
 .contacts__item {
-  font-family: '"Roboto", sans-serif';
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.172;
@@ -228,7 +228,7 @@ header {
 }
 
 .hero__h1 {
-  font-family: '"Roboto", sans-serif';
+  font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.364;
@@ -259,7 +259,7 @@ header {
 }
 
 .services__h3 {
-  font-family: '"Roboto", sans-serif';
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.172;
@@ -271,7 +271,7 @@ header {
 }
 
 .services__text {
-  font-family: '"Roboto", sans-serif';
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
@@ -308,7 +308,7 @@ header {
 }
 
 .activity__h2 {
-  font-family: '"Roboto", sans-serif';
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.172;
@@ -347,7 +347,7 @@ header {
 
 .activity__text {
   font-size: 14px;
-  font-family: '"Roboto", sans-serif';
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   line-height: 1.143;
   padding: 0px;
@@ -368,7 +368,7 @@ header {
 }
 
 .team__h2 {
-  font-family: '"Roboto", sans-serif';
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.172;
@@ -378,7 +378,7 @@ header {
 }
 
 .team__h3 {
-  font-family: '"Roboto", sans-serif';
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.173;
@@ -423,7 +423,7 @@ header {
 
 .team__position {
   font-size: 16px;
-  font-family: '"Roboto", sans-serif';
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   line-height: 1.172;
   letter-spacing: 0.03em;
@@ -458,7 +458,7 @@ header {
 }
 
 .clients__h2 {
-  font-family: '"Roboto", sans-serif';
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.172;
@@ -544,7 +544,7 @@ footer {
 
 .address__zone {
   font-style: normal;
-  font-family: '"Roboto", sans-serif';
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
@@ -563,7 +563,7 @@ footer {
 }
 
 .address__item {
-  font-family: '"Roboto", sans-serif';
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
@@ -594,10 +594,11 @@ footer {
 
 .connect__h3,
 .subscription__h3 {
-  font-family: '"Roboto", sans-serif';
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.172;
+  letter-spacing: 0.03em;
   color: #ffffff;
   margin: 0px;
   margin-bottom: 0px;
@@ -661,7 +662,7 @@ footer {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: #ffffff;
   font-size: 16px;
-  font-family: '"Roboto", sans-serif';
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   line-height: 1.25;
   letter-spacing: 0.03em;
@@ -866,7 +867,7 @@ footer {
 }
 
 .modal__field-name {
-  font-family: '"Roboto", sans-serif';
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.167;
@@ -882,7 +883,7 @@ footer {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   height: 40px;
   font-size: 14px;
-  font-family: '"Roboto", sans-serif';
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   line-height: 1.167;
   letter-spacing: 0.01em;
@@ -976,7 +977,7 @@ footer {
 
 .modal__checkbox-label {
   font-size: 14px;
-  font-family: '"Roboto", sans-serif';
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   line-height: 1.714;
   letter-spacing: 0.03em;
@@ -1024,7 +1025,7 @@ footer {
 .filter__button {
   font-family: Roboto;
   font-size: 16px;
-  font-family: '"Roboto", sans-serif';
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   line-height: 1.625;
   letter-spacing: 0.03em;
@@ -1124,7 +1125,7 @@ footer {
 }
 
 .projects__description {
-  font-family: '"Roboto", sans-serif';
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.556;
@@ -1145,7 +1146,7 @@ footer {
 }
 
 .projects__h3 {
-  font-family: '"Roboto", sans-serif';
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -1156,7 +1157,7 @@ footer {
 }
 
 .projects__type {
-  font-family: '"Roboto", sans-serif';
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.875;
