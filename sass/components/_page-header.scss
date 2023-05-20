@@ -2,13 +2,15 @@ header {
   border-bottom: 1px solid #ececec;
 }
 
-.header--container {
+.header-box {
+  @extend %container;
   display: flex;
   align-items: center;
   height: 80px;
 }
 
 .page-logo__color--header {
+  @extend .page-logo;
   color: $menu-item-color;
 }
 
@@ -101,12 +103,8 @@ header {
 .contacts__icon--header {
   margin-right: 10px;
   fill: $base-color;
-  .contacts__link--header:hover & {
+  .contacts__link--header:hover &,
+  .contacts__link--header:focus & {
     fill: $select-color;
   }
-}
-
-.f-contacts:hover .f-contacts-icon,
-.f-contacts:focus .f-contacts-icon {
-  fill: $select-color;
 }

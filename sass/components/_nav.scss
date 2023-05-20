@@ -7,15 +7,12 @@
   margin: 0px;
 }
 
-.nav__item {
+.nav__link {
   font-family: $fontFamilyDefault;
   font-weight: $fontWeight-500;
   font-size: $fontSize14;
   line-height: 1.172;
   letter-spacing: 0.02em;
-}
-
-.nav__link {
   display: block;
   text-decoration: none;
   -webkit-transition: color $anime-time $anime-function;

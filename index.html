@@ -18,17 +18,17 @@
 <body>
 
     <header>
-        <div class="container header--container">
-            <a href="" class="page-logo"><span class="page-logo__color--header">Web</span>Studio</a>
+        <div class="header-box">
+            <a href="" class="page-logo">Web<span class="page-logo__color--header">Studio</span></a>
             <nav class="nav nav--header">
                 <ul class="nav__list nav__list--header">
-                    <li class="nav__ite nav__item--header">
+                    <li class="nav__item--header">
                         <a class="nav__link nav__link--header nav__current-page" href="./index.html">Студія</a>
                     </li>
-                    <li class="nav__ite nav__item--header">
+                    <li class="nav__item--header">
                         <a class="nav__link nav__link--header " href="./portfolio.html">Портфоліо</a>
                     </li>
-                    <li class="nav__ite nav__item--header">
+                    <li class="nav__item--header">
                         <a class="nav__link nav__link--header" href="">Контакти</a>
                     </li>
                 </ul>
@@ -54,16 +54,16 @@
 
     <main>
 
-        <section class="section hero">
-            <div class="container hero__box">
+        <section class=" hero">
+            <div class="hero__box">
                 <h1 class="hero__h1">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
                 <button class="hero__button" data-modal__open>Замовити послугу</button>
             </div>
         </section>
 
 
-        <section class="section services">
-            <div class="container services__box">
+        <section class="services">
+            <div class="services__box">
                 <ul class="services__list">
                     <li class="services__item">
                         <div class="services__type">
@@ -116,8 +116,8 @@
             </div>
         </section>
 
-        <section class="section activity">
-            <div class="container activity__box">
+        <section class="activity">
+            <div class="activity__box">
                 <h2 class="activity__h2">Чим ми займаємось</h2>
                 <ul class="activity__list">
                     <li class="activity_item">
@@ -142,8 +142,8 @@
             </div>
         </section>
 
-        <section class="section team">
-            <div class="container team__box">
+        <section class="team">
+            <div class="team__box">
                 <h2 class="team__h2">Наша команда</h2>
                 <ul class="team__list">
                     <li class="team__item">
@@ -297,8 +297,8 @@
                 </ul>
             </div>
         </section>
-        <section class="section clients">
-            <div class="container clients__box">
+        <section class="clients">
+            <div class="clients__box">
                 <h2 class="clients__h2">Постійні клієнти</h2>
                 <ul class="clients__list">
                     <li class="clients__item">
@@ -349,10 +349,10 @@
     </main>
 
     <footer>
-        <div class="container basement">
+        <div class="basement">
             <div class="address">
-                <a href="" class="page-logo"><span class="page-logo__color--footer">Web</span>Studio</a>
-                <address>
+                <a href="" class="page-logo">Web<span class="page-logo__color--footer">Studio</span></a>
+                <address class="address__zone">
                     м. Київ, пр-т Лесі Українки, 26
                     <ul class="address__list">
                         <li class="address__item">
@@ -383,14 +383,14 @@
                     </li>
                     <li class="social__item">
                         <a href="" class="social__link  social__link--firm">
-                            <svg class="social__icon social__icon--team">
+                            <svg class="social__icon social__icon--firm">
                                 <use href="./images/icons.svg#facebook-1"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="social__item">
                         <a href="" class="social__link  social__link--firm">
-                            <svg class="social__icon social__icon--team">
+                            <svg class="social__icon social__icon--firm">
                                 <use href="./images/icons.svg#linkedin-1"></use>
                             </svg>
                         </a>
@@ -402,7 +402,7 @@
                 <h3 class="subscription__h3">ПІДПИШИСЬ НА РОЗСИЛКУ</h3>
                 <form class="subscription__form">
                     <input type="email" class="subscription__field" name="subscription__email" placeholder="E-mail">
-                    <button type="submit" class="hero__button subscription__buttom">Відправити <Span> </Span><svg
+                    <button type="submit" class="subscription__buttom">Відправити <Span> </Span><svg
                             class="subscription__icon">
                             <use href="./images/icons.svg#send-icon"></use>
                         </svg></button>
@@ -421,7 +421,7 @@
             <h3 class="modal__h3">Залиште свої дані, ми вам передзвонимо</h3>
             <form class="modal__form">
                 <span class="modal__item">
-                    <label  class="modal__label">
+                    <label class="modal__label">
                         <span class="modal__field-name">Ім'я</span>
                         <input type="text" class="modal__field" name="modal__name" autofocus>
                         <svg class="modal__icon">
@@ -448,11 +448,11 @@
                     <label class="modal__label">
                         <span class="modal__field-name">Коментар</span>
                         <textarea class="modal__field modal__coment" name="modal__coment"
-                         placeholder="Введіть текст"></textarea>
+                            placeholder="Введіть текст"></textarea>
                     </label>
                 </span>
                 <span class="modal__checkbox-box">
-                    <label >
+                    <label>
                         <input type="checkbox" name="f-checkbox" class="modal__checkbox" value="OK">
                         <svg class="modal__checkbox-icon">
                             <use href="./images/icons.svg#castom-check-box"></use>
@@ -464,7 +464,7 @@
                 </span>
 
 
-                <button type="submit" class="hero__button modal__button">Відправити</button>
+                <button type="submit" class="modal__button">Відправити</button>
 
             </form>
 

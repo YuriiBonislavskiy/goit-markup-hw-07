@@ -5,6 +5,7 @@ footer {
 }
 
 .basement {
+  @extend %container;
   color: $base-color;
   /* height: 252px; */
   display: -webkit-box;
@@ -16,10 +17,11 @@ footer {
 }
 
 .page-logo__color--footer {
+  @extend .page-logo;
   color: $base-color2;
 }
 
-.address > address {
+.address__zone {
   font-style: normal;
   font-family: $fontFamilyDefault;
   font-weight: $fontWeight-400;
@@ -36,6 +38,7 @@ footer {
   margin-top: 12px;
   margin-bottom: 0px;
   padding-left: 0px;
+  list-style-type: none;
 }
 
 .address__item {
@@ -59,11 +62,10 @@ footer {
   margin: 0px;
   -webkit-transition: color $anime-time $anime-function;
   transition: color $anime-time $anime-function;
-}
-
-.address__link:hover,
-.address__link:focus {
-  color: $base-color2;
+  &:hover,
+  &:focus {
+    color: $base-color2;
+  }
 }
 
 .connect {
@@ -163,6 +165,7 @@ footer {
 }
 
 .subscription__buttom {
+  @extend %blue__button;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

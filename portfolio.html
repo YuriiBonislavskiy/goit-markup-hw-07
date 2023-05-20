@@ -16,17 +16,17 @@
 
 <body>
   <header>
-    <div class="container header--container">
-      <a href="" class="page-logo"><span class="page-logo__color--header">Web</span>Studio</a>
+    <div class="header-box">
+      <a href="" class="page-logo">Web<span class="page-logo__color--header">Studio</span></a>
       <nav class="nav nav--header">
         <ul class="nav__list nav__list--header">
-          <li class="nav__ite nav__item--header">
+          <li class="nav__item--header">
             <a class="nav__link nav__link--header" href="./index.html">Студія</a>
           </li>
-          <li class="nav__ite nav__item--header">
+          <li class="nav__item--header">
             <a class="nav__link nav__link--header nav__current-page" href="./portfolio.html">Портфоліо</a>
           </li>
-          <li class="nav__ite nav__item--header">
+          <li class="nav__item--header">
             <a class="nav__link nav__link--header" href="">Контакти</a>
           </li>
         </ul>
@@ -51,35 +51,35 @@
   </header>
 
   <main>
-    <section class="section portfolio">
-      <div class="container portfolio-box filter">
+    <section class="portfolio">
+      <div class="filter">
         <ul class="filter__list">
           <li class="filter__item">
-            <button type="button" class="p-button" id="p-button1">Усі</button>
+            <button type="button" class="filter__button filter__button1">Усі</button>
           </li>
           <li class="filter__item">
-            <button type="button" class="p-button" id="p-button2">
+            <button type="button" class="filter__button filter__button2">
               Веб-сайти
             </button>
           </li>
           <li class="filter__item">
-            <button type="button" class="p-button" id="p-button3">
+            <button type="button" class="filter__button filter__button3">
               Додатки
             </button>
           </li>
           <li class="filter__item">
-            <button type="button" class="p-button" id="p-button4">
+            <button type="button" class="filter__button filter__button4">
               Дизайн
             </button>
           </li>
           <li class="filter__item">
-            <button type="button" class="p-button" id="p-button5">
+            <button type="button" class="filter__button filter__button5">
               Маркетинг
             </button>
           </li>
         </ul>
       </div>
-      <div class="container projects">
+      <div class="projects">
         <ul class="projects__list">
           <li class="projects__item">
             <a class="projects__link" href="">
@@ -88,9 +88,8 @@
                 <img class="projects__image" src="./images/portfolio1.jpg" alt="Технокряк" width="370">
                 <div class="projects__overlay">
                   <p class="projects__description">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
-                    сервісів.
-                    Все це дозволить відвідувачу отримати
-                    вичерпні відомості про компанію чи приватну особу.</p>
+                    сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу
+                  </p>
                 </div>
               </div>
               <!-- ВАРІАНТ 1 -->
@@ -102,8 +101,14 @@
           </li>
           <li class="projects__item">
             <a class="projects__link" href="">
-              <img class="projects__image" src="./images/portfolio2.jpg" alt="Постер New Orlean vs Golden Star"
-                width="370">
+              <div class="projects__photo">
+                <img class="projects__image" src="./images/portfolio2.jpg" alt="Постер New Orlean vs Golden Star"
+                  width="370">
+                <div class="projects__overlay">
+                  <p class="projects__description">Тут має бути відповідний текст, що присвячений даному проекту.
+                  </p>
+                </div>
+              </div>
               <div class="projects__id">
                 <h3 class="projects__h3">Постер New Orlean vs Golden Star </h3>
                 <p class="projects__type">Дизайн</p>
@@ -112,7 +117,13 @@
           </li>
           <li class="projects__item">
             <a class="projects__link" href="">
-              <img class="projects__image" src="./images/portfolio3.jpg" alt="Ресторан Seafood" width="370">
+              <div class="projects__photo">
+                <img class="projects__image" src="./images/portfolio3.jpg" alt="Ресторан Seafood" width="370">
+                <div class="projects__overlay">
+                  <p class="projects__description">Тут має бути відповідний текст, що присвячений даному проекту.
+                  </p>
+                </div>
+              </div>
               <div class="projects__id">
                 <h3 class="projects__h3">Ресторан Seafood</h3>
                 <p class="projects__type">Додаток</p>
@@ -122,7 +133,13 @@
           </li>
           <li class="projects__item">
             <a class="projects__link" href="">
-              <img class="projects__image" src="./images/portfolio4.jpg" alt="Проєкт Prime" width="370">
+              <div class="projects__photo">
+                <img class="projects__image" src="./images/portfolio4.jpg" alt="Проєкт Prime" width="370">
+                <div class="projects__overlay">
+                  <p class="projects__description">Тут має бути відповідний текст, що присвячений даному проекту.
+                  </p>
+                </div>
+              </div>
               <div class="projects__id">
                 <h3 class="projects__h3">Проєкт Prime</h3>
                 <p class="projects__type">Маркетинг</p>
@@ -131,7 +148,13 @@
           </li>
           <li class="projects__item">
             <a class="projects__link" href="">
-              <img class="projects__image" src="./images/portfolio5.jpg" alt="Проєкт Boxes" width="370">
+              <div class="projects__photo">
+                <img class="projects__image" src="./images/portfolio5.jpg" alt="Проєкт Boxes" width="370">
+                <div class="projects__overlay">
+                  <p class="projects__description">Тут має бути відповідний текст, що присвячений даному проекту.
+                  </p>
+                </div>
+              </div>
               <div class="projects__id">
                 <h3 class="projects__h3">Проєкт Boxes</h3>
                 <p class="projects__type">Додаток</p>
@@ -140,7 +163,13 @@
           </li>
           <li class="projects__item">
             <a class="projects__link" href="">
-              <img class="projects__image" src="./images/portfolio6.jpg" alt="Inspiration has no Borders" width="370">
+              <div class="projects__photo">
+                <img class="projects__image" src="./images/portfolio6.jpg" alt="Inspiration has no Borders" width="370">
+                <div class="projects__overlay">
+                  <p class="projects__description">Тут має бути відповідний текст, що присвячений даному проекту.
+                  </p>
+                </div>
+              </div>
               <div class="projects__id">
                 <h3 class="projects__h3">Inspiration has no Borders</h3>
                 <p class="projects__type">Веб-сайт</p>
@@ -149,7 +178,13 @@
           </li>
           <li class="projects__item">
             <a class="projects__link" href="">
-              <img class="projects__image" src="./images/portfolio7.jpg" alt="Видання Limited Edition" width="370">
+              <div class="projects__photo">
+                <img class="projects__image" src="./images/portfolio7.jpg" alt="Видання Limited Edition" width="370">
+                <div class="projects__overlay">
+                  <p class="projects__description">Тут має бути відповідний текст, що присвячений даному проекту.
+                  </p>
+                </div>
+              </div>
               <div class="projects__id">
                 <h3 class="projects__h3">
                   Inspiration has no Borders
@@ -160,7 +195,13 @@
           </li>
           <li class="projects__item">
             <a class="projects__link" href="">
-              <img class="projects__image" src="./images/portfolio8.jpg" alt="Проєкт LAB" width="370">
+              <div class="projects__photo">
+                <img class="projects__image" src="./images/portfolio8.jpg" alt="Проєкт LAB" width="370">
+                <div class="projects__overlay">
+                  <p class="projects__description">Тут має бути відповідний текст, що присвячений даному проекту.
+                  </p>
+                </div>
+              </div>
               <div class="projects__id">
                 <h3 class="projects__h3">Проєкт LAB</h3>
                 <p class="projects__type">Маркетинг</p>
@@ -169,7 +210,13 @@
           </li>
           <li class="projects__item">
             <a class="projects__link" href="">
-              <img class="projects__image" src="./images/portfolio9.jpg" alt="Growing Business" width="370">
+              <div class="projects__photo">
+                <img class="projects__image" src="./images/portfolio9.jpg" alt="Growing Business" width="370">
+                <div class="projects__overlay">
+                  <p class="projects__description">Тут має бути відповідний текст, що присвячений даному проекту.
+                  </p>
+                </div>
+              </div>
               <div class="projects__id">
                 <h3 class="projects__h3">Growing Business</h3>
                 <p class="projects__type">Додаток</p>
@@ -182,10 +229,10 @@
   </main>
 
   <footer>
-    <div class="container basement">
+    <div class="basement">
       <div class="address">
-        <a href="" class="page-logo"><span class="page-logo__color--footer">Web</span>Studio</a>
-        <address>
+        <a href="" class="page-logo">Web<span class="page-logo__color--footer">Studio</span></a>
+        <address class="address__zone">
           м. Київ, пр-т Лесі Українки, 26
           <ul class="address__list">
             <li class="address__item">
@@ -216,14 +263,14 @@
           </li>
           <li class="social__item">
             <a href="" class="social__link  social__link--firm">
-              <svg class="social__icon social__icon--team">
+              <svg class="social__icon social__icon--firm">
                 <use href="./images/icons.svg#facebook-1"></use>
               </svg>
             </a>
           </li>
           <li class="social__item">
             <a href="" class="social__link  social__link--firm">
-              <svg class="social__icon social__icon--team">
+              <svg class="social__icon social__icon--firm">
                 <use href="./images/icons.svg#linkedin-1"></use>
               </svg>
             </a>
@@ -235,8 +282,7 @@
         <h3 class="subscription__h3">ПІДПИШИСЬ НА РОЗСИЛКУ</h3>
         <form class="subscription__form">
           <input type="email" class="subscription__field" name="subscription__email" placeholder="E-mail">
-          <button type="submit" class="hero__button subscription__buttom">Відправити <Span> </Span><svg
-              class="subscription__icon">
+          <button type="submit" class="subscription__buttom">Відправити <Span> </Span><svg class="subscription__icon">
               <use href="./images/icons.svg#send-icon"></use>
             </svg></button>
 
@@ -244,68 +290,6 @@
       </div>
     </div>
   </footer>
-
-  <div class="backdrop is-hidden" data-modal>
-    <div class="modal">
-      <button type="button" class="modal__close-button" data-modal__close>
-        <svg class="close-icon">
-          <use href="./images//icons.svg#close"></use>
-        </svg></button>
-      <h3 class="modal__h3">Залиште свої дані, ми вам передзвонимо</h3>
-      <form class="modal__form">
-        <span class="modal__item">
-          <label class="modal__label">
-            <span class="modal__field-name">Ім'я</span>
-            <input type="text" class="modal__field" name="modal__name" autofocus>
-            <svg class="modal__icon">
-              <use href="./images/icons.svg#person-black-18dp"></use>
-            </svg></label>
-        </span>
-        <span class="modal__item">
-          <label class="modal__label">
-            <span class="modal__field-name">Телефон</span>
-            <input type="tel" class="modal__field" name="modal__phone">
-            <svg class="modal__icon">
-              <use href="./images/icons.svg#phone-black-18dp"></use>
-            </svg></label>
-        </span>
-        <span class="modal__item">
-          <label class="modal__label">
-            <span class="modal__field-name">Пошта</span>
-            <input type="email" class="modal__field" name="modal__emale" id="modal__email">
-            <svg class="modal__icon">
-              <use href="./images/icons.svg#email-black-18dp"></use>
-            </svg></label>
-        </span>
-        <span class="modal__item">
-          <label class="modal__label">
-            <span class="modal__field-name">Коментар</span>
-            <textarea class="modal__field modal__coment" name="modal__coment" placeholder="Введіть текст"></textarea>
-          </label>
-        </span>
-        <span class="modal__checkbox-box">
-          <label>
-            <input type="checkbox" name="f-checkbox" class="modal__checkbox" value="OK">
-            <svg class="modal__checkbox-icon">
-              <use href="./images/icons.svg#castom-check-box"></use>
-            </svg>
-            <span class="modal__checkbox-label">Погоджуюся з розсилкою та приймаю <span><a href=""
-                  class="modal__contact">Умови
-                  договору</a></span></span>
-          </label>
-        </span>
-
-
-        <button type="submit" class="hero__button modal__button">Відправити</button>
-
-      </form>
-
-
-    </div>
-  </div>
-
-
-  <script src="./js/modal.js"></script>
 
 </body>
 

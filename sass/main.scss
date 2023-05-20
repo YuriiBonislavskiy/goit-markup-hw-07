@@ -1,6 +1,7 @@
 @charset "UTF-8";
-@import "./utils/variables.scss";
+@import "./utils/variables";
 @import "./utils/glogal-components";
+@import "./utils/placeholders";
 @import "./components/nav";
 @import "./components/page-logo";
 @import "./components/contacts";

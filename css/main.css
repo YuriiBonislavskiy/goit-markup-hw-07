@@ -11,17 +11,35 @@ html {
   box-sizing: inherit;
 }
 
-.section, .hero {
+.portfolio, .clients, .team, .activity, .services, .hero {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.container {
+.projects, .filter, .basement, .clients__box, .team__box, .activity__box, .services__box, .hero__box, .header-box {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.modal__button, .subscription__buttom, .hero__button {
+  font-family: '"Roboto", sans-serif';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  border: none;
+  background-color: #2196f3;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 24px;
+  padding-right: 24px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 .nav__list {
@@ -33,23 +51,20 @@ html {
   margin: 0px;
 }
 
-.nav__item {
-  font-family: "Roboto", sans-serif;
+.nav__link {
+  font-family: '"Roboto", sans-serif';
   font-weight: 500;
   font-size: 14px;
   line-height: 1.172;
   letter-spacing: 0.02em;
-}
-
-.nav__link {
   display: block;
   text-decoration: none;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.page-logo {
-  font-family: "Raleway", sans-serif;
+.page-logo, .page-logo__color--footer, .page-logo__color--header {
+  font-family: '"Raleway", sans-serif';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
@@ -65,7 +80,7 @@ html {
 }
 
 .contacts__item {
-  font-family: "Roboto", sans-serif;
+  font-family: '"Roboto", sans-serif';
   font-weight: 500;
   font-size: 14px;
   line-height: 1.172;
@@ -87,7 +102,7 @@ header {
   border-bottom: 1px solid #ececec;
 }
 
-.header--container {
+.header-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -189,12 +204,7 @@ header {
   margin-right: 10px;
   fill: #757575;
 }
-.contacts__link--header:hover .contacts__icon--header {
-  fill: #2196f3;
-}
-
-.f-contacts:hover .f-contacts-icon,
-.f-contacts:focus .f-contacts-icon {
+.contacts__link--header:hover .contacts__icon--header, .contacts__link--header:focus .contacts__icon--header {
   fill: #2196f3;
 }
 
@@ -218,7 +228,7 @@ header {
 }
 
 .hero__h1 {
-  font-family: "Roboto", sans-serif;
+  font-family: '"Roboto", sans-serif';
   font-weight: 900;
   font-size: 44px;
   line-height: 1.364;
@@ -227,24 +237,6 @@ header {
   margin: auto;
   max-width: 696px;
   margin-bottom: 40px;
-}
-
-.hero__button {
-  font-size: 16px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  line-height: 1.875;
-  letter-spacing: 0.06em;
-  border: none;
-  background-color: #2196f3;
-  color: #ffffff;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 24px;
-  padding-right: 24px;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
 }
 
 .services__list {
@@ -267,18 +259,18 @@ header {
 }
 
 .services__h3 {
-  font-family: "Roboto", sans-serif;
+  font-family: '"Roboto", sans-serif';
   font-weight: 700;
   font-size: 14px;
   line-height: 1.172;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: #212121;
 }
 
 .services__text {
-  font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: '"Roboto", sans-serif';
   font-weight: 400;
+  font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
   margin-top: 10px;
@@ -314,11 +306,13 @@ header {
 }
 
 .activity__h2 {
-  font-family: "Roboto", sans-serif;
+  font-family: '"Roboto", sans-serif';
   font-weight: 700;
   font-size: 36px;
   line-height: 1.172;
   letter-spacing: 0.03em;
+  padding: 0px;
+  margin-top: 0px;
   margin-bottom: 50px;
   color: #000000;
 }
@@ -351,7 +345,7 @@ header {
 
 .activity__text {
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: '"Roboto", sans-serif';
   font-weight: 700;
   line-height: 1.143;
   padding: 0px;
@@ -369,26 +363,27 @@ header {
 
 .team__box {
   text-align: center;
-  /* padding-bottom: 94px; */
 }
 
 .team__h2 {
-  font-family: "Roboto", sans-serif;
+  font-family: '"Roboto", sans-serif';
   font-weight: 700;
   font-size: 36px;
   line-height: 1.172;
   letter-spacing: 0.03em;
+  margin-top: 0px;
   margin-bottom: 50px;
   color: #000000;
 }
 
 .team__h3 {
-  font-family: "Roboto", sans-serif;
+  font-family: '"Roboto", sans-serif';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.173;
   letter-spacing: 0.03em;
   padding: 0px;
+  margin: 0px;
 }
 
 .team__list {
@@ -420,14 +415,14 @@ header {
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 32px;
-  padding-right: 32px;
+  padding-right: 30px;
   width: 270px;
   background-color: #ffffff;
 }
 
 .team__position {
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: '"Roboto", sans-serif';
   font-weight: 400;
   line-height: 1.172;
   letter-spacing: 0.03em;
@@ -461,12 +456,12 @@ header {
 }
 
 .clients__h2 {
-  font-family: "Roboto", sans-serif;
+  font-family: '"Roboto", sans-serif';
   font-weight: 700;
   font-size: 36px;
   line-height: 1.172;
   letter-spacing: 0.03em;
-  margin-bottom: 50px;
+  margin-top: 0px;
   color: #000000;
 }
 
@@ -545,9 +540,9 @@ footer {
   color: #ffffff;
 }
 
-.address > address {
+.address__zone {
   font-style: normal;
-  font-family: "Roboto", sans-serif;
+  font-family: '"Roboto", sans-serif';
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
@@ -562,10 +557,11 @@ footer {
   margin-top: 12px;
   margin-bottom: 0px;
   padding-left: 0px;
+  list-style-type: none;
 }
 
 .address__item {
-  font-family: "Roboto", sans-serif;
+  font-family: '"Roboto", sans-serif';
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
@@ -586,9 +582,7 @@ footer {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.address__link:hover,
-.address__link:focus {
+.address__link:hover, .address__link:focus {
   color: #ffffff;
 }
 
@@ -600,7 +594,7 @@ footer {
 .connect__h3,
 .subscription__h3 {
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: '"Roboto", sans-serif';
   font-weight: 700;
   line-height: 1.172;
   color: #ffffff;
@@ -674,7 +668,7 @@ footer {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: #ffffff;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: '"Roboto", sans-serif';
   font-weight: 400;
   line-height: 1.25;
   letter-spacing: 0.03em;
@@ -879,7 +873,7 @@ footer {
 }
 
 .modal__field-name {
-  font-family: "Roboto", sans-serif;
+  font-family: '"Roboto", sans-serif';
   font-weight: 400;
   font-size: 12px;
   line-height: 1.167;
@@ -895,7 +889,7 @@ footer {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   height: 40px;
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: '"Roboto", sans-serif';
   font-weight: 400;
   line-height: 1.167;
   letter-spacing: 0.01em;
@@ -989,7 +983,7 @@ footer {
 
 .modal__checkbox-label {
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: '"Roboto", sans-serif';
   font-weight: 400;
   line-height: 1.714;
   letter-spacing: 0.03em;
@@ -1008,9 +1002,7 @@ footer {
   -webkit-transition: ox-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: ox-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.modal__button:hover,
-.modal__button:focus {
+.modal__button:hover, .modal__button:focus {
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
@@ -1036,10 +1028,10 @@ footer {
   margin-right: 0px;
 }
 
-.p-button {
+.filter__button {
   font-family: Roboto;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: '"Roboto", sans-serif';
   font-weight: 500;
   line-height: 1.625;
   letter-spacing: 0.03em;
@@ -1051,12 +1043,13 @@ footer {
   padding-bottom: 6px;
   padding-left: 22px;
   padding-right: 22px;
+  color: #212121;
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.p-button:hover, .p-button:focus {
+.filter__button:hover, .filter__button:focus {
   background-color: #2196f3;
   color: #ffffff;
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -1138,9 +1131,9 @@ footer {
 }
 
 .projects__description {
-  font-size: 18px;
-  font-family: "Roboto", sans-serif;
+  font-family: '"Roboto", sans-serif';
   font-weight: 400;
+  font-size: 18px;
   line-height: 1.556;
   text-align: left;
   color: #ffffff;
@@ -1152,28 +1145,30 @@ footer {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 24px;
-  /* padding-right: 24px; */
+  padding-right: 24px;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
 }
 
 .projects__h3 {
-  font-family: "Roboto", sans-serif;
+  font-family: '"Roboto", sans-serif';
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  color: #212121;
   letter-spacing: 0.06em;
+  padding: 0px;
+  margin: 0px;
 }
 
 .projects__type {
-  font-family: "Roboto", sans-serif;
+  font-family: '"Roboto", sans-serif';
   font-weight: 400;
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: #757575;
   margin: 0px;
-  /* margin-left: 24px; */
   margin-top: 4px;
 }/*# sourceMappingURL=main.css.map */

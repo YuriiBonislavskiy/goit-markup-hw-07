@@ -1,3 +1,11 @@
+.portfolio {
+  @extend %section;
+}
+
+.filter {
+  @extend %container;
+}
+
 .filter__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -17,7 +25,7 @@
   }
 }
 
-.p-button {
+.filter__button {
   font-family: Roboto;
   font-size: $fontSize16;
   font-family: $fontFamilyDefault;
@@ -32,6 +40,7 @@
   padding-bottom: 6px;
   padding-left: 22px;
   padding-right: 22px;
+  color: $menu-item-color;
   -webkit-transition: background-color $anime-time $anime-function,
     color $anime-time $anime-function,
     -webkit-box-shadow $anime-time $anime-function;
@@ -55,6 +64,10 @@
 }
 
 /*                              Блок ПРОЄКТИ */
+.projects {
+  @extend %container;  
+}
+
 .projects__list {
   /*  margin-left: 215px; */
   padding: 0px;
@@ -139,9 +152,9 @@
 }
 
 .projects__description {
-  font-size: $fontSize18;
   font-family: $fontFamilyDefault;
   font-weight: $fontWeight-400;
+  font-size: $fontSize18;
   line-height: 1.556;
   text-align: left;
   color: $base-color2;
@@ -153,7 +166,7 @@
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 24px;
-  /* padding-right: 24px; */
+  padding-right: 24px;
   border-left: 1px solid $projects__item-color;
   border-right: 1px solid $projects__item-color;
   border-bottom: 1px solid $projects__item-color;
@@ -164,7 +177,10 @@
   font-weight: $fontWeight-700;
   font-size: $fontSize18;
   line-height: 2;
+  color: $menu-item-color;
   letter-spacing: 0.06em;
+  padding: 0px;
+  margin: 0px;
 }
 
 .projects__type {
@@ -175,6 +191,5 @@
   letter-spacing: 0.03em;
   color: $base-color;
   margin: 0px;
-  /* margin-left: 24px; */
   margin-top: 4px;
 }

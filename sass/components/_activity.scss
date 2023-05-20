@@ -1,8 +1,10 @@
 .activity {
+  @extend %section;
   padding-top: 0px;
 }
 
 .activity__box {
+  @extend %container;
   text-align: center;
 }
 
@@ -12,6 +14,8 @@
   font-size: $fontSize36;
   line-height: 1.172;
   letter-spacing: 0.03em;
+  padding: 0px;
+  margin-top: 0px;
   margin-bottom: 50px;
   color: $header-color;
 }

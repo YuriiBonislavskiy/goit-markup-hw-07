@@ -1,3 +1,11 @@
+.services {
+  @extend %section;
+}
+
+.services__box {
+  @extend %container;
+}
+
 .services__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -28,13 +36,13 @@
   line-height: 1.172;
   letter-spacing: 0.03em;
   // margin-bottom: 10px;
-  color: $base-color2;
+  color: $menu-item-color;
 }
 
 .services__text {
-  font-size: $fontSize14;
   font-family: $fontFamilyDefault;
   font-weight: $fontWeight-400;
+  font-size: $fontSize14;
   line-height: 1.714;
   letter-spacing: 0.03em;
   margin-top: 10px;
